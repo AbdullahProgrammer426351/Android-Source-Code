@@ -1,0 +1,13 @@
+====================================Attributes in table layout tag======================
+android:stretchColumns="" -----> it will stretch that item of which no will given 
+the value of atrribute, counting starts from 0
+android:shrinkColumns="" ----> it will shrink width of item to wrap-content of which index
+no is given in value of attribute.
+android:collapseColumns="3"---> it will hide or remove that item of which index no is given 
+in attribute
+=====================================Attributes in item tag================================
+            android:layout_span="3"--> It will merge column of that item in which tag 
+this attribute is added and takes place of 3 cols in this case
+
+
+

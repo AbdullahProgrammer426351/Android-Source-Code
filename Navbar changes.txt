@@ -1,0 +1,6 @@
+1.Delete folders of fragments
+2.Change id's from mainAcivity.java
+3.Modify items and their id's in tags in activity_main_drawer.xml
+4.Modify changes in mobile_navigation.xml by changing the id's etc.
+5.Change icons by creating new vector assets and type thier name in resource path after deleting first icon name
+6.Go to the main.xml file to change settings options

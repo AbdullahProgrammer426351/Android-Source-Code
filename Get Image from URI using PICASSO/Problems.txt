@@ -1,0 +1,2 @@
+This app is showing placeholder image not the url image in presence of internet.
+This problem is may be due to slow network or other unknown reasons.

@@ -1,0 +1,5 @@
+It's good practice to include other system UI flags 
+(such as SYSTEM_UI_FLAG_LAYOUT_HIDE_NAVIGATION and SYSTEM_UI_FLAG_LAYOUT_STABLE) 
+to prevent your layout from resizing when the system bars hide and show. 
+You should also make sure that the action bar
+ and other UI controls are hidden at the same time.

@@ -1,0 +1,1 @@
+transition folder will be placed under res folder

@@ -1,0 +1,2 @@
+Camera Button is not working. Try to debug this when free.
+Gallery button is working correctly

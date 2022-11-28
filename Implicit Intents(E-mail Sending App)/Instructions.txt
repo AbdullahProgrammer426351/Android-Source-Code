@@ -1,0 +1,3 @@
+This app works in basic activity not empty activity.
+--------------------Problems-------------------
+This app is not completely coded

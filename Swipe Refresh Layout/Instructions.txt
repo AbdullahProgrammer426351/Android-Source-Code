@@ -1,0 +1,2 @@
+This app is not showing page but showing network error statement may be due to network 
+problems. Check it when you have internet.

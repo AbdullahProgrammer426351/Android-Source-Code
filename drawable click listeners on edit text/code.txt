@@ -1,0 +1,16 @@
+   editText.setOnTouchListener((v, event) -> {
+            final int DRAWABLE_LEFT = 0;
+            final int DRAWABLE_TOP = 1;
+            final int DRAWABLE_RIGHT = 2;
+            final int DRAWABLE_BOTTOM = 3;
+
+            if(event.getAction() == MotionEvent.ACTION_UP) {
+                if(event.getRawX() >= (binding.editUserName.getRight() - binding.editUserName.getCompoundDrawables()[DRAWABLE_RIGHT].getBounds().width())) {
+                    binding.historyUserName.setVisibility(View.VISIBLE);
+                    binding.editUserName.setVisibility(View.GONE);
+                    binding.historyEdit.setBackgroundResource(R.drawable.ic_done);
+                    return true;
+                }
+            }
+            return false;
+        });

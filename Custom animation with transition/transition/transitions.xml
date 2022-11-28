@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<transitionSet xmlns:android="http://schemas.android.com/apk/res/android"
+    android:transitionOrdering="together">
+<!--    <fade-->
+<!--        android:duration="5000"-->
+<!--        android:fadingMode="fade_in"/>-->
+    <slide
+        android:duration="2000"
+        android:slideEdge="top"
+        android:interpolator="@android:interpolator/accelerate_cubic"/>
+
+</transitionSet>

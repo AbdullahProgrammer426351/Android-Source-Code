@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Linear layout as the root layout-->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".MainActivity">
+    <androidx.constraintlayout.utils.widget.ImageFilterView
+        android:id="@+id/img_filter_Img_view"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_margin="20dp"
+        app:roundPercent="0.5"
+        app:saturation="03"
+        app:contrast="2"
+        app:warmth="3"
+        app:crossfade="0.7"
+        android:scaleType="centerCrop"
+        android:src="@drawable/bg_two"
+        app:altSrc="@drawable/bg1"
+        android:layout_centerHorizontal="true"/>
+
+    <androidx.constraintlayout.utils.widget.ImageFilterButton
+        android:id="@+id/img_filter_btn"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="20dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/bg3"
+        app:altSrc="@drawable/res4"
+        app:contrast="2"
+        app:crossfade="0.2"
+        app:roundPercent="0.5"
+        app:saturation="03"
+        app:warmth="3" />
+
+</RelativeLayout>

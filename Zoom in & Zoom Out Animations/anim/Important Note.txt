@@ -1,0 +1,1 @@
+anim folder will be placed under res folder

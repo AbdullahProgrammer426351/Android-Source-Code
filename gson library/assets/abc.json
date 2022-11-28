@@ -1,0 +1,14 @@
+{
+
+	"personal_details":
+		{
+
+		"name" : "HAROON",
+		"age" : "12"
+		},
+	"father_details":
+		{
+		"fathername" : "Father",
+		"fatherage" : "30" 
+		}
+}

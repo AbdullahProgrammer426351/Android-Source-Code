@@ -1,0 +1,4 @@
+This app will work properly when you will create a new activity in android studio and paste
+all the code inside it for Shared Activity. if you will copy java and xml files from here,
+and paste them as it is to the project, the app will crash when you will click on cardView.
+whether you use transition or not.

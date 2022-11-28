@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".MainActivity">
+
+    <com.google.android.material.chip.Chip
+        android:id="@+id/chip4"
+        android:checkable="true"
+        app:chipIcon="@drawable/vol_up"
+        app:rippleColor="@color/red"
+        android:background="@color/teal_700"
+        app:chipIconEnabled="true"
+        app:closeIcon="@drawable/vol_off"
+        app:closeIconEnabled="false"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Hint Chip Button"
+        app:showMotionSpec="@anim/nav_default_pop_enter_anim"
+
+        android:text="Chip Button"/>
+    <CheckBox
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CheckBox"
+        android:hint="CheckBox Hint"/>
+    <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <RadioButton android:id="@+id/radio_pirates"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pirates"/>
+        <RadioButton android:id="@+id/radio_ninjas"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ninjas"/>
+    </RadioGroup>
+    <ToggleButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:disabledAlpha="0"
+        android:textOff="Unchecked"
+        android:textOn="Checked"
+        android:hint="Toggle Button Hint"
+
+        android:text="Toggle Button"/>
+    <Switch
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Switch Button"
+        android:textOn="On"
+        android:textOff="Off"
+        android:padding="20dp"
+        android:thumb="@drawable/block_asset"
+        android:track="@drawable/line_scale"
+        android:trackTint="@color/red"
+        android:hint="Switch Button Hint"/>
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        app:rippleColor="@color/red"
+        android:background="@drawable/plus_one_asset"/>
+
+</LinearLayout>

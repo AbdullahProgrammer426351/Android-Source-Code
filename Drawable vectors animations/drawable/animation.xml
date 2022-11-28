@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:drawable="@drawable/no_wifi_signal"
+        android:duration="400"/>
+    <item
+        android:drawable="@drawable/signal_one"
+        android:duration="400"/>
+    <item
+        android:drawable="@drawable/signal_wifi_three"
+        android:duration="400"/>
+    <item
+        android:drawable="@drawable/wifi_signal_four"
+        android:duration="400"/>
+    <item
+        android:drawable="@drawable/wifi_signal_five"
+        android:duration="400"/>
+
+</animation-list>

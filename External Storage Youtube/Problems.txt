@@ -1,0 +1,1 @@
+This app is not saving data may be due to absence of SD Card.
