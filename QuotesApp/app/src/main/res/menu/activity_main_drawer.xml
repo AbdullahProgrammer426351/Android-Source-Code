@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/shareUs"
+            android:icon="@drawable/ic_share_us"
+            android:title="@string/menu_share_us" />
+        <item
+            android:id="@+id/rateUs"
+            android:icon="@drawable/ic_rate_us"
+            android:title="@string/menu_rate_us" />
+        <item
+            android:id="@+id/more"
+            android:icon="@drawable/ic_more"
+            android:title="@string/menu_more" />
+
+        <item
+            android:id="@+id/feedback"
+            android:icon="@drawable/ic_feedback"
+            android:title="@string/menu_feedack" />
+
+        <item
+            android:id="@+id/privacyPolicy"
+            android:icon="@drawable/ic_privacy_policy"
+            android:title="@string/menu_privacy" />
+    </group>
+</menu>
